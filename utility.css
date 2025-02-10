@@ -1,0 +1,61 @@
+#hola{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(255, 0, 255);
+}
+#typewritter{
+ font-size: 2vw;
+ font-family:'Courier New', Courier, monospace;
+ font-weight: bold;
+}
+.hi{
+    height: auto;
+    width: 70vw;
+    background-color: #c48686;
+    animation-name: love;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 1vw;
+    z-index: 1;
+    position: relative;
+   
+}
+#jumbo{
+    height: 100px;
+    width: 150px;
+}
+.opinion{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin: auto;}
+
+#jumbo2{
+    height: 125px;
+    width: 175px;
+    margin-left: 82%;
+}
+button{
+    margin: auto;
+    text-align: center;
+}
+#yes{
+ height: 30px;
+width: 40px;
+ color: black;
+ background-color: greenyellow;
+ margin: auto;
+}
+#no{
+ height: 30px;
+width: 40px;
+ color: black;
+ background-color: red;
+ margin: auto;
+}
+#babu{
+    font-size: 25px;
+    text-align: center;
+}

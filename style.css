@@ -1,0 +1,55 @@
+.anime{
+  height: 40vw;
+  width: 40vw;
+  position: absolute;
+  border-radius: 60%;
+  background: linear-gradient(to top,#0ab1fe,#d305fc);
+  top: 30%;
+  left: 7%;
+  filter: blur(20px);
+  animation-name: gooey;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  
+}
+@keyframes gooey {
+    from{
+      filter: blur(70px);
+      transform: translate(30%,-10%) skew(0);
+    }
+    to{
+      filter: blur(40px);
+      transform: translate(-10%,10%) skew(30deg);
+    }
+  }
+  .anime2{
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    border-radius: 60%;
+    background: linear-gradient(to top,#be00be,#0283be);
+    top: 70%;
+    right: 10%;
+    filter: blur(20px);
+    animation-name: gooey2;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    
+  }
+  @keyframes gooey2 {
+      from{
+        filter: blur(70px);
+        transform: translate(30%,-10%) skew(0);
+      }
+      to{
+        filter: blur(40px);
+        transform: translate(-10%,10%) skew(30deg);
+      }
+    }
+  
+    
+  
