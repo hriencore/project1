@@ -1,8 +1,10 @@
+
 #hola{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:  rgb(255, 0, 255);
 }
+
 #typewritter{
  font-size: 2vw;
  font-family:'Courier New', Courier, monospace;
@@ -11,7 +13,7 @@
 .hi{
     height: auto;
     width: 70vw;
-    background-color: #c48686;
+    background-color: #c48686a4;
     animation-name: love;
     align-items: center;
     justify-content: center;
@@ -20,6 +22,7 @@
     padding: 1vw;
     z-index: 1;
     position: relative;
+    backdrop-filter: blur(10px);
    
 }
 #jumbo{
