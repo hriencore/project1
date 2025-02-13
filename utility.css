@@ -4,7 +4,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:  rgb(255, 0, 255);
 }
-
+#bottle{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    text-decoration: none ;
+}
 #typewritter{
  font-size: 2vw;
  font-family:'Courier New', Courier, monospace;
